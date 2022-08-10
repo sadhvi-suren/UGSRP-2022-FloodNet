@@ -25,13 +25,6 @@ This repo contains all the work done when working as a summer research intern fo
 ### 1. ML Model Data Labelling
    Since the sensors are deployed on sign posts across the city, they are subject to a lot of noise caused by people or things underneath the sensor. In order to isolate non-flood events, a machine learning model was built by a member of the team. Preliminary work for the model included labelling the data collected by the sensors into different classes: flood, single peak, pulse chain, box, snow, and noise. Table 1 shows what each of these classes look like. 
 
-<p align = "center">
-   Table 1: Event Classification
-</p>
-<p align = "center">
-   <img src="https://user-images.githubusercontent.com/105950235/184010932-6354d2f4-6139-4e89-9e17-a45177a3cde8.jpg">
-</p>
-
 ### 2. Analysing Filter Performance
 
 ## Data Analysis
