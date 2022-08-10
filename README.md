@@ -26,6 +26,7 @@ This repo contains all the work done when working as a summer research intern fo
    Since the sensors are deployed on sign posts across the city, they are subject to a lot of noise caused by people or things underneath the sensor. In order to isolate non-flood events, a machine learning model was built by a member of the team. Preliminary work for the model included labelling the data collected by the sensors into different classes: flood, single peak, pulse chain, box, snow, and noise. This dataset included start and end times for each event, its class, and the sensor it was recorded on. 
 
 ### 2. Analysing Filter Performance
+   Two filters are placed on the data in order to minimize the number of non-flood events shown in the sensor data, making it easier to read and undersand. The first is a range filter that gets rid of any values below 1 centimeter as well as values that are at or above the sensor height. The second is a gradient filter that clears any points with a sudden and large increase of 12 inches per minute or faster. In order to improve these filters and potentially create new filters that would help clean up the data, calculations were made to see how each filter performed, and what factors led them to perform better or worse.
 
 ## Data Analysis
 
