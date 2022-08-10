@@ -14,11 +14,11 @@ This repo contains all the work done when working as a summer research intern fo
 
 ## Sensor Deployment Location Identification
    As a part of the project expansion to all five boroughs, sensor deployment locations in Staten Island were identified. Deployment locations depend on several criteria, the most important being elevation and flood susceptibility, proximity to gateway, and availability of sunlight. Flood susceptibility was gauged based on moderate event flooding on NYC Stormwater Flood maps. Once an area was selected, Google maps was used to scout mounting posts. Documentation was created with information on each of the criteria along with streetview and map images of the sign post location. 
+![deployment](https://user-images.githubusercontent.com/105950235/183995501-652b2840-4e58-47ce-9b02-1a4f5c28a8c1.jpg)
 <p align='center'>
-
-<img src = ![deployment](https://user-images.githubusercontent.com/105950235/183995501-652b2840-4e58-47ce-9b02-1a4f5c28a8c1.jpg)>
-*Figure 1: Flooding Profile, Streetview, and Map Images for Sensor Deployment*
+   Figure 1: Flooding Profile, Streetview, and Map Images for Sensor Deployment
 </p>
+
 ## ML Model Data Labelling
 
 ## Data Analysis
