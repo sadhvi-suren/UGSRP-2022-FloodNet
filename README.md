@@ -23,7 +23,7 @@ This repo contains all the work done when working as a summer research intern fo
 
 ## Data Filters
 ### 1. ML Model Data Labelling
-   Since the sensors are deployed on sign posts across the city, they are subject to a lot of noise caused by people or things underneath the sensor. In order to isolate non-flood events, a machine learning model was built by a member of the team. Preliminary work for the model included labelling the data collected by the sensors into different classes: flood, single peak, pulse chain, box, snow, and noise. Table 1 shows what each of these classes look like. 
+   Since the sensors are deployed on sign posts across the city, they are subject to a lot of noise caused by people or things underneath the sensor. In order to isolate non-flood events, a machine learning model was built by a member of the team. Preliminary work for the model included labelling the data collected by the sensors into different classes: flood, single peak, pulse chain, box, snow, and noise. This dataset included start and end times for each event, its class, and the sensor it was recorded on. 
 
 ### 2. Analysing Filter Performance
 
