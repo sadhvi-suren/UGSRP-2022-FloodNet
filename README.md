@@ -4,10 +4,12 @@ This repo contains all the work done when working as a summer research intern fo
 **Table of Contents:**
 - [Introduction](#introduction)
 - [Sensor Deployment Location Identification](#sensor-deployment-location-identification)
-- [ML Model Data Labelling](#ml-model-data-labelling)
+- [Data Filters](#data-filtering)
+   - [1.ML Model Data Labelling](#1-ml-model-data-labelling)
+   - [2.Analysing Filter Performance](#2-analysing-filter-performance)
 - [Data Analysis](#data-analysis)
    - [1.Tidal Analysis](#1-tidal-analysis)
-   - [2. Floodnet, Floodwatch and 311 Data](#2-floodnet-floodwatch-and-311-data)
+   - [2.Floodnet, Floodwatch and 311 Data](#2-floodnet-floodwatch-and-311-data)
  
 ## Introduction
    The Floodnet project is a cooperative of communities across NYC working towards collecting real time flooding data that could aid in understanding urban flooding caused by extreme precipitation, tidal events, and the combination of both. As under graduate researchers we focused on analysing data from FloodNet sensors and other community-based data sources like Floodwatch and 311 Complaints. Unlike these sources, which depend on communities to report flooding events, Floodnet uses ultrasonic sensors deployed in different parts of the city to detect flood depth. 
@@ -19,7 +21,18 @@ This repo contains all the work done when working as a summer research intern fo
    Figure 1: Flooding Profile, Streetview, and Map Images for Sensor Deployment
 </p>
 
-## ML Model Data Labelling
+## Data Filters
+### 1. ML Model Data Labelling
+   Since the sensors are deployed on sign posts across the city, they are subject to a lot of noise caused by people or things underneath the sensor. In order to isolate non-flood events, a machine learning model was built by a member of the team. Preliminary work for the model included labelling the data collected by the sensors into different classes: flood, single peak, pulse chain, box, snow, and noise. Table 1 shows what each of these classes look like. 
+
+<p align = "center">
+   Table 1: Event Classification
+</p>
+<p align = "center">
+   <img src="https://user-images.githubusercontent.com/105950235/184010932-6354d2f4-6139-4e89-9e17-a45177a3cde8.jpg">
+</p>
+
+### 2. Analysing Filter Performance
 
 ## Data Analysis
 
